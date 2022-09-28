@@ -1,0 +1,5 @@
+@use "forms" as *;
+
+select {
+	@extend %block_input;
+}

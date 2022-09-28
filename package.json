@@ -1,0 +1,14 @@
+{
+  "name": "load-css-test",
+  "description": "Minimal reproduction of bug trying to @extend a placeholder from another Sass module with @use",
+  "private": true,
+  "scripts": {
+    "build": "sass src:dist"
+  },
+  "keywords": ["sass", "test case"],
+  "author": "W. Evan Sheehan <evan.sheehan@noaa.gov>",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  }
+}
